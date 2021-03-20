@@ -34,10 +34,20 @@
         android:inputType="textPassword"/>
 
     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="연락처 (폰번)" />
+
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="전화번호 입력"
         android:inputType="phone"/>
+
+
+
+
+
 
 
 
